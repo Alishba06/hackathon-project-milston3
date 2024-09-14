@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Dynamic Resume Builder Form</h1>
+        <h3>Name:Alishba Javed</h2>
+        <h4>Full Stack Developer</h4>
+        <h3>Email:alishbainteligent46@gmail.com</h3>
+        <h3>Contact:No(03106110994)</h3>
+</div>
+        <form id="resume-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Education</legend>
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" name="degree" required>
+
+                <label for="school">School/University:</label>
+                <input type="text" id="school" name="school" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Work Experience</legend>
+                <label for="job-title">Job Title:</label>
+                <input type="text" id="job-title" name="job-title" required>
+
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="skills">Skills (comma-separated):</label>
+                <input type="text" id="skills" name="skills" required>
+                <input id="file" type="file">
+            </fieldset>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+
+        <div class="resume-container">
+            <h2>Generated Resume</h2>
+            <div id="generated-resume">
+                <!-- Dynamic resume will appear here -->
+                <div class="text">
+                    <h2><ul><u>My informatin</u></ul></h2>
+                    <br>
+                    <div class="img"><img align="top" width="20%"  src="https://imageio.forbes.com/specials-images/imageserve/6233b1621631d49614c02f75//960x0.jpg?height=473&width=711&fit=bounds" alt="ii"></div>
+                   <section class="info">
+                    <br>
+                    <form action="">
+                   <h3>Name: Alishba Javed</h3>
+                   
+                   <h4>Full Stack Developer</h4>
+                
+                   <h3>Email: alishbainteligent46@gmail.com</h3>
+                 
+                   <h3>Contact No: (03106110994)</h3>
+                 
+                   <!-- <button class="btn">show/hide</button>
+                    <div id="myDiv"></div> -->
+                   <br>
+                   <hr color="black">
+              
+                   
+                  <br>
+                   <br>
+                  </section>
+                  <section>
+                    <h3>Skills</h3>
+                    <br>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <br>
+                        <li>React, Angular, Vue.js</li>
+                        <br>
+                        <li>Responsive Web Design</li>
+                        <br>
+                        <li>Git, GitHub, Version Control</li>
+                        <br>
+                        <li>Cross-Browser Compatibility</li>
+                    </ul>
+                    <br>
+                    <hr color="black">
+                </section>
+              
+                <section>
+                   <br>
+                  <h3>Education</h3>
+                  <p>1year</p>
+                  <p>government girls high school</p>
+                  <br>
+                  <hr color="black">
+              </section>
+              
+              
+              <section>
+                <br>
+                <h3>Certifications</h3>
+                <br>
+                <ul>
+                    <li>Graphic Design</li>
+                    <br>
+                    <li> Digital Literacy</li>
+                    <br>
+                    <li> Data Analytics and Business Intelligence</li>
+                    <br>
+                    <li>Video Editing, Animation and Vlogging</li>
+                    <br>
+                    <li>Communication and Soft Skills</li>
+                </ul>
+                <br>
+                <hr color="black">
+              </section>
+              
+              <section>
+                <br>
+                <h3>Projects</h3>
+                <br>
+                <ul>
+                    <li><strong>calculator</strong></li>
+                    <br>
+                    <li><strong>Atm Machine</strong></li>
+                    <br>
+                    <li><strong>Adventure Game</strong></li>
+                    <br>
+                    <li><strong>Word Counter</strong></li>
+                    <br>
+                    <li><strong>currency coverter project</strong></li>
+                </ul>
+                <br>
+                <hr color="black">
+              </section>
+              
+              <section>
+                <br>
+                <h3>Follow</h3>
+                <br>
+                <a href="https://www.facebook.com/profile.php?id=100088943539952">Facebook</a>
+                <br>
+                <br>
+                <a href="www.linkedin.com/in/alishba-javed-4961b12bb">Linkedin</a>
+              </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="/type.js"></script>
+</body>
+</html>
